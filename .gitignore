@@ -1,0 +1,18 @@
+# virtual environment
+.venv/
+venv/
+
+# data: not redistributed (see README); keep the folder itself
+data/*
+!data/.gitkeep
+
+# notebook / python junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.csv
